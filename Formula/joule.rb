@@ -1,8 +1,8 @@
 class Joule < Formula
   desc "The Joule programming language compiler - energy-aware systems programming"
   homepage "https://joule-lang.org"
-  license "MIT"
-  version "1.0.0"
+  license "Apache-2.0"
+  version "0.1.0"
 
   on_macos do
     if Hardware::CPU.arm?
